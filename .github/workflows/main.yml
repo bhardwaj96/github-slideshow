@@ -13,5 +13,5 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: deploy
-      - run : echo Hello, World!
+        run : echo Hello, World!
         # ...deployment-specific steps

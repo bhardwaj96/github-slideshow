@@ -11,5 +11,7 @@ jobs:
     environment: 
       name: testing
     steps:
+      
       - name: deploy
+      - run : echo Hello, World!
         # ...deployment-specific steps

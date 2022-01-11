@@ -10,7 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     environment: 
       name: testing
-      url: https://github.com
     steps:
       - name: deploy
         # ...deployment-specific steps
